@@ -1,0 +1,245 @@
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #4CAF50;
+}
+
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#form1 input[type="text"],
+#form1 input[type="number"],
+#form1 input[type="textbox"],
+#form1 input[type="email"],
+#form1 input[type="tel"],
+#form1 input[type="url"],
+#form1 input[type="password"],
+#form1 textarea,
+#form1 input[type="button"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#form1 {
+  background: #F9F9F9;
+  padding: 25px;
+  margin-top: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#form1 h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#form1 textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#form1 input[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.div2 input[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#form1 input:focus,
+#form1 textarea:focus {
+  outline: 0;
+  border: 2px solid #888;
+}
+
+.div1, .div2 {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 0;
+	margin-bottom: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.div1 h3, .div2 h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.div1 h4, .div2 h4 {
+  font-size: 15px;
+  font-weight: 400;
+	float: left;
+	margin-right: 5px;
+}
+
+.div1 select{
+	display: block;
+	font-size: 15px;
+  font-weight: 400;
+	border: none;
+  background: #4CAF50;
+  color: #FFF;
+	margin : 5px;
+}
+
+.div1 button, .div2 button{
+  cursor: pointer;
+  width: 32%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+	margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.div1 button :hover, .div2 button :hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.div1 input {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+.div2 input {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  width: 20%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.div1 li, .div2 li{
+	color: black;
+	margin-left: 25px;
+}
+
+
+.skills {
+	text-align: right;
+	color: white;
+	background-color: #4CAF50;
+}
+
+/*table*/
+.table {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding-left: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #eceeef;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+/*slider*/
+
+#slider label {
+  position: absolute;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: -10px;
+  text-align: center;
+}
+
+.slider_label{
+  background: #ff0; 
+  padding:10px; 
+  border: 1px solid #000;
+  display: inline; 
+  margin : 5px;
+}
+
+#slider {
+  margin: 10px;
+}
+
+
+.ui-slider-horizontal {
+    height: 10px;
+    width: 100%;
+}
+
+
+
+.ui-slider-multiple .ui-slider-handle:after, .ui-slider .ui-slider-handle:before {
+  display:block;
+  height:15px;
+  content:'';
+  right:100%;
+  top:0px;
+  left: -1000px;
+  position:absolute;
+}
+.ui-slider-multiple .ui-slider-handle:nth-child(12):after{background:#4CAF50;}
+.ui-slider-multiple .ui-slider-handle:nth-child(11):after{background:#FF007F;}
+.ui-slider-multiple .ui-slider-handle:nth-child(10):after{background:#FF0000;}
+.ui-slider-multiple .ui-slider-handle:nth-child(9):after{background:#FF7F00;}
+.ui-slider-multiple .ui-slider-handle:nth-child(8):after{background:#FFFF00;}
+.ui-slider-multiple .ui-slider-handle:nth-child(7):after{background:#7FFF00;}
+.ui-slider-multiple .ui-slider-handle:nth-child(6):after{background:green;}
+.ui-slider-multiple .ui-slider-handle:nth-child(5):after{background:#00FF88;}
+.ui-slider-multiple .ui-slider-handle:nth-child(4):after{background:#00FFFF;}
+.ui-slider-multiple .ui-slider-handle:nth-child(3):after{background:#007FFF;}
+.ui-slider-multiple .ui-slider-handle:nth-child(2):after{background:#0000FF;}
+.ui-slider-multiple .ui-slider-handle:nth-child(1):after{background:#7F00FF;}
+
+
